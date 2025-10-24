@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#8038c6" xmlns:v="https://vecta.io/nano"><path d="M58.23 34.61l-3.14-.79a18.41 18.41 0 0 0-2.86-6.94l1.66-2.68a.86.86 0 0 0-.13-1.06l-2.45-2.45a.88.88 0 0 0-1.1-.17l-2.77 1.67a18.43 18.43 0 0 0-6.94-2.87l-.69-3.14a.88.88 0 0 0-.87-.66h-3.47a.88.88 0 0 0-.87.66l-.79 3.14a18.57 18.57 0 0 0-6.94 2.87l-2.68-1.67a.86.86 0 0 0-1.05.13l-2.46 2.46a.85.85 0 0 0-.16 1.09l1.66 2.8a18.55 18.55 0 0 0-2.86 6.94l-3.14.7a.86.86 0 0 0-.66.86v3.47a.87.87 0 0 0 .66.87l3.14.79a18.41 18.41 0 0 0 2.86 6.94l-1.66 2.68a.86.86 0 0 0 .13 1.06l2.45 2.45a.86.86 0 0 0 1.06.13l2.77-1.66a18.55 18.55 0 0 0 6.94 2.86l.73 3.17a.87.87 0 0 0 .87.66h3.47a.87.87 0 0 0 .87-.66l.79-3.14a18.27 18.27 0 0 0 6.93-2.86l2.68 1.67a.87.87 0 0 0 1.06-.13l2.46-2.46a.86.86 0 0 0 .16-1.09l-1.66-2.78a18.41 18.41 0 0 0 2.86-6.94l3.14-.69a.87.87 0 0 0 .66-.87v-3.5a.86.86 0 0 0-.66-.86zm-21 9.54a6.94 6.94 0 1 1 6.94-6.94 6.94 6.94 0 0 1-6.97 6.94z" opacity=".2"/><path d="M16.39 27.67H37.2a.87.87 0 0 0 .87-.87 11.26 11.26 0 0 0-7.73-10.69 6.07 6.07 0 1 0-8.47-1.38 6.23 6.23 0 0 0 1.38 1.38 11.26 11.26 0 0 0-7.73 10.69.87.87 0 0 0 .87.87zm6.07-16.48a4.34 4.34 0 1 1 4.34 4.33 4.34 4.34 0 0 1-4.34-4.33zm4.34 6.07a9.55 9.55 0 0 1 9.54 8.67H17.25a9.55 9.55 0 0 1 9.55-8.67zm17.34 8.67a4.34 4.34 0 0 0-4.25 3.47h-4.42a.87.87 0 0 0-.87.87 6.07 6.07 0 0 1-6.07 6.07h-3.47A6.07 6.07 0 0 1 19 30.27a.87.87 0 0 0-.87-.87H13.7a4.34 4.34 0 1 0 0 1.74h3.61a7.81 7.81 0 0 0 7.75 6.94h.87v1.82a4.33 4.33 0 1 0 1.73 0v-1.82h.87a7.81 7.81 0 0 0 7.75-6.94h3.61a4.34 4.34 0 1 0 4.25-5.21zM9.45 32.87a2.6 2.6 0 1 1 2.6-2.6 2.59 2.59 0 0 1-2.6 2.6zm20 11.28a2.61 2.61 0 1 1-2.6-2.6 2.61 2.61 0 0 1 2.55 2.6zm14.69-11.28a2.6 2.6 0 1 1 2.6-2.6 2.6 2.6 0 0 1-2.6 2.6z"/><!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

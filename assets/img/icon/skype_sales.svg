@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <filter id="Ellipse_7" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#fc5546" flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_28" data-name="Group 28" transform="translate(-288 -7307)">
+    <g transform="matrix(1, 0, 0, 1, 288, 7307)" filter="url(#Ellipse_7)">
+      <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="16" cy="16" r="16" transform="translate(3 3)" fill="#fc5546"/>
+    </g>
+    <path id="Icon_metro-skype" data-name="Icon metro-skype" d="M17.876,11.1a7.329,7.329,0,0,0-7.309-8.336,7.341,7.341,0,0,0-1.19.1A4.4,4.4,0,0,0,3.28,8.95a7.343,7.343,0,0,0,7.287,8.5,7.54,7.54,0,0,0,1.343-.123A4.4,4.4,0,0,0,17.876,11.1Zm-6.62,4.414c-2.345.122-3.442-.4-4.447-1.34-1.122-1.053-.672-2.255.243-2.316S8.515,12.9,9,13.2s2.341,1,3.32-.123c1.066-1.219-.709-1.849-2.01-2.04-1.858-.275-4.2-1.28-4.021-3.261A3.4,3.4,0,0,1,9.55,4.641a5.47,5.47,0,0,1,4.356,1.188c1.2,1.021.549,2.162-.213,2.254S12.079,6.4,10.4,6.377c-1.727-.027-2.894,1.8-.762,2.316s4.417.731,5.24,2.681-1.279,4.021-3.626,4.143Z" transform="translate(296.429 7315.851)" fill="#fff"/>
+  </g>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

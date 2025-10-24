@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" xmlns:v="https://vecta.io/nano"><style>.B{isolation:isolate}</style><g opacity=".2" fill="#8038c6"><path d="M45 47.49h1.31v3.91H45z"/><path class="B" d="M39.81 41h1.3v10.4h-1.3zM32 54h26.72a.65.65 0 0 0 .65-.65v-15H32zm26.07-1.3h-6.52v-1.3h6.52zm0-2.6h-6.52v-1.31h6.52zm0-2.61h-6.52v-1.31h6.52zm-9.13-7.83h9.13v5.22h-9.13zm0 6.52h1.3v1.31h-1.3zm0 2.61h1.3v1.31h-1.3zm0 2.61h1.3v1.3h-1.3zm-15.66-9.13h3.92v9.13h1.3V39.66h3.92V51.4h1.3v-5.22h3.91v6.52H33.28z"/><path d="M34.59 43.57h1.3v7.83h-1.3z"/><circle cx="54.16" cy="33.14" r="1.3"/><path class="B" d="M21.54 37.05h9.13v-7.83h-9.13zm1.31-6.52h6.52v5.22h-6.52z"/><path d="M24.15 42.27h3.92v1.3h-3.92zm0 6.52h3.92v1.31h-3.92z"/><path class="B" d="M50.24 41h6.52v2.61h-6.52zm-28.7 12.4a.66.66 0 0 0 .66.65h8.47v-15.7h-9.13zM22.85 41h6.52v3.92h-6.52zm0 6.53h6.52v3.87h-6.52z"/><circle cx="46.33" cy="33.14" r="1.3"/><path d="M24.15 31.83h3.92v2.61h-3.92zM32 37.05h27.37v-7.83H32zm22.18-6.52a2.61 2.61 0 1 1-2.61 2.61 2.6 2.6 0 0 1 2.59-2.61zm-7.83 0a2.61 2.61 0 1 1-2.61 2.61 2.61 2.61 0 0 1 2.59-2.61zm-7.83 0a2.61 2.61 0 1 1-2.61 2.61 2.61 2.61 0 0 1 2.59-2.61z"/><circle class="B" cx="24.8" cy="24.66" r=".65"/><circle class="B" cx="35.24" cy="24.66" r=".65"/><circle cx="38.5" cy="33.14" r="1.3"/><circle class="B" cx="30.02" cy="24.66" r=".65"/><path class="B" d="M58.72 21.4H22.2a.66.66 0 0 0-.66.65v5.87h37.83v-5.87a.65.65 0 0 0-.65-.65zM24.8 26.61a2 2 0 1 1 2-1.95 1.95 1.95 0 0 1-2 1.95zm5.22 0a2 2 0 1 1 2-1.95A1.95 1.95 0 0 1 30 26.61zm5.22 0a2 2 0 1 1 2-1.95 2 2 0 0 1-2 1.95z"/></g><path d="M16.43 20.2H6.86A2.23 2.23 0 0 1 4.63 18v-5.77A2.23 2.23 0 0 1 6.86 10h9.57a2.24 2.24 0 0 1 2.24 2.24V18a2.23 2.23 0 0 1-2.24 2.2zm-9.57-8.29a.32.32 0 0 0-.32.32V18a.32.32 0 0 0 .32.32h9.57a.32.32 0 0 0 .32-.32v-5.77a.32.32 0 0 0-.32-.32zm9.57 28.72H6.86a2.23 2.23 0 0 1-2.23-2.24V25a2.23 2.23 0 0 1 2.23-2.23h9.57A2.23 2.23 0 0 1 18.67 25v13.4a2.24 2.24 0 0 1-2.24 2.23zm-9.57-16a.32.32 0 0 0-.32.32v13.4a.32.32 0 0 0 .32.32h9.57a.32.32 0 0 0 .32-.32V25a.32.32 0 0 0-.32-.32zm26.14 16h-9.54a2.24 2.24 0 0 1-2.24-2.24v-5.74a2.23 2.23 0 0 1 2.24-2.23H33a2.23 2.23 0 0 1 2.23 2.23v5.74A2.23 2.23 0 0 1 33 40.63zm-9.57-8.3a.32.32 0 0 0-.32.32v5.74a.32.32 0 0 0 .32.32H33a.32.32 0 0 0 .32-.32v-5.74a.32.32 0 0 0-.32-.32zM33 27.86h-9.54a2.23 2.23 0 0 1-2.24-2.23v-13.4A2.24 2.24 0 0 1 23.46 10H33a2.23 2.23 0 0 1 2.23 2.24v13.4A2.23 2.23 0 0 1 33 27.86zm-9.54-15.95a.32.32 0 0 0-.32.32v13.4a.32.32 0 0 0 .32.32H33a.32.32 0 0 0 .32-.32v-13.4a.32.32 0 0 0-.32-.32z" fill="#8038c6"/><!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

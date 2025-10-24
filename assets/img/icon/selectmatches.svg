@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#ff1010" xmlns:v="https://vecta.io/nano"><path d="M24.44 49.38l-.62-.31a32.4 32.4 0 0 1-4.06-2.38c-2.68-1.91-6-5.1-6.53-7.85-.46-2.24-.08-7 .19-9.61l.1-1.05 1-.16a4.43 4.43 0 0 0 2.36-1.16 3.87 3.87 0 0 0 1.16-2l.25-1h12.17l.25 1a3.91 3.91 0 0 0 1.14 2A4.47 4.47 0 0 0 34.23 28l1 .16.11 1.05c.27 2.63.65 7.37.19 9.61-.55 2.74-3.85 5.94-6.51 7.84a35.49 35.49 0 0 1-4 2.39zM16 30.47a37.66 37.66 0 0 0-.14 7.83c.32 1.54 2.6 4.13 5.43 6.16a30.77 30.77 0 0 0 3.09 1.85 32.09 32.09 0 0 0 3.06-1.87c2.81-2 5.09-4.6 5.41-6.14a37.66 37.66 0 0 0-.14-7.83A7.11 7.11 0 0 1 30 28.85a6.43 6.43 0 0 1-1.6-2.26h-8a6.59 6.59 0 0 1-1.61 2.27A7.05 7.05 0 0 1 16 30.47zm32.53 25.07l-.62-.31a35.9 35.9 0 0 1-4.06-2.38c-2.68-1.92-6-5.11-6.53-7.85-.46-2.25-.08-7 .19-9.62l.11-1 1-.17A4.43 4.43 0 0 0 41 33a3.85 3.85 0 0 0 1.17-2l.25-1h12.13l.25 1a3.82 3.82 0 0 0 1.2 2 4.4 4.4 0 0 0 2.37 1.17l1 .16.1 1.05c.22 2.11.67 7.28.19 9.61-.55 2.75-3.85 5.94-6.51 7.84a35.49 35.49 0 0 1-4 2.39zm-8.4-18.92a37.66 37.66 0 0 0-.13 7.83c.32 1.55 2.6 4.14 5.43 6.16a30.85 30.85 0 0 0 3.09 1.86 35.21 35.21 0 0 0 3.06-1.87c2.81-2 5.09-4.61 5.41-6.15a37.66 37.66 0 0 0-.14-7.83A7 7 0 0 1 54.09 35a6.43 6.43 0 0 1-1.6-2.26h-8A6.72 6.72 0 0 1 42.87 35a7.08 7.08 0 0 1-2.74 1.62zm8.24 11.66a17.78 17.78 0 0 1-1.93-1.14c-1.32-.94-2.75-2.38-3-3.48a21 21 0 0 1 .11-4.57 2.91 2.91 0 0 0 1.53-.75 2.62 2.62 0 0 0 .8-1.34h5a2.62 2.62 0 0 0 .77 1.31 2.84 2.84 0 0 0 1.53.75 21 21 0 0 1 .1 4.57c-.22 1.1-1.65 2.54-3 3.48a17.5 17.5 0 0 1-1.91 1.14zm-23.96-6.12A14.38 14.38 0 0 1 22.48 41c-1.32-.93-2.75-2.38-3-3.47a21.07 21.07 0 0 1 .1-4.58 2.84 2.84 0 0 0 1.53-.75 2.51 2.51 0 0 0 .77-1.31h5a2.58 2.58 0 0 0 .77 1.31 2.91 2.91 0 0 0 1.53.75 20.51 20.51 0 0 1 .11 4.58c-.22 1.09-1.65 2.53-3 3.47a17.37 17.37 0 0 1-1.9 1.14z" opacity=".2"/><path d="M4.76 26.75a14.13 14.13 0 1 0 9.36-17.66 14.15 14.15 0 0 0-9.36 17.66zm2.5-.75a11.52 11.52 0 1 1 14.39 7.63A11.53 11.53 0 0 1 7.26 26z"/><path d="M6.63 44.56a1.35 1.35 0 0 0 1 .09A1.31 1.31 0 0 0 8.4 44l4.95-9.34A1.31 1.31 0 0 0 11 33.45l-4.91 9.34a1.32 1.32 0 0 0 .54 1.77z"/><!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
