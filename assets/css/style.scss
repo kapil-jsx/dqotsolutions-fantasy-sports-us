@@ -195,11 +195,11 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-// #typing-text::after {
-//     content: '|';
-//     animation: blink 0.7s infinite;
-//     color: $btn_bg;
-// }
+#typing-text::after {
+    content: '|';
+    animation: blink 0.7s infinite;
+    color: $btn_bg;
+}
 
 @keyframes blink {
 
@@ -2994,7 +2994,9 @@ to {
         svg {
             margin-bottom: 12px;
         }
-
+        p{
+            color: #000;
+        }
         h3 {
             font-size: 16px;
             line-height: 24px;
