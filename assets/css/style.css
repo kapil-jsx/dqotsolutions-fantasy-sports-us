@@ -3017,9 +3017,12 @@ to {
 .contactus_sec .input-group-text {
   background-color: #fff;
   border: 1px solid #e0e0e0;
+  border-radius: 0 5px 5px 0;
+  padding: 0 12px 0 0px !important;
 }
 .contactus_sec .form-select {
   background-color: #ecedef;
+  border-radius: 0 5px 5px 0;
   width: 100%;
   border-radius: 4px;
   max-width: 113px;
@@ -15929,6 +15932,7 @@ span.title-blue {
 
 .fantasy-faq-section {
   padding: 50px 0;
+  background: #eaf3ff;
 }
 .fantasy-faq-section h2 {
   font-size: 32px;
@@ -15944,10 +15948,12 @@ span.title-blue {
   height: 375px;
   flex-wrap: nowrap;
   overflow: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(165, 166, 246, 0.2784313725);
 }
 .fantasy-faq-section div#v-pills-tabContent {
   padding: 50px 50px 100px 100px;
-  background-color: #f2f7ff;
+  background-color: #fff;
   height: 100%;
   border-radius: 15px;
   margin-right: 100px;
@@ -22345,7 +22351,8 @@ section.solor-energy-section .solor-slide:hover h3 {
     margin: 11px 0 30px;
   }
   .contactus_sec {
-    margin-top: 40px;
+    margin: 0 !important;
+    padding: 40px 0 !important;
   }
   .our_team_sec {
     padding: 30px 0;
@@ -23486,9 +23493,6 @@ section.solor-energy-section .solor-slide:hover h3 {
   }
   .insights_sec .insight_main .insight_card .insight_content h2 {
     margin-bottom: 0;
-  }
-  .contactus_sec {
-    margin-top: 30px;
   }
   .crpto_process_sec .w_div {
     width: 100%;
