@@ -195,11 +195,11 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-#typing-text::after {
-    content: '|';
-    animation: blink 0.7s infinite;
-    color: $btn_bg;
-}
+// #typing-text::after {
+//     content: '|';
+//     animation: blink 0.7s infinite;
+//     color: $btn_bg;
+// }
 
 @keyframes blink {
 

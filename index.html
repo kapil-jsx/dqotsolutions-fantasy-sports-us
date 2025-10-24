@@ -190,18 +190,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link nav_title">Home</a>
+                  <a class="nav-link nav_title" href="https://www.dqotsolutions.com/">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav_title">About Us </a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link nav_title">Services </a>
+                  <a class="nav-link nav_title" href="https://www.dqotsolutions.com/">About Us </a>
                 </li>
 
                 <li class="nav-item">
-                  <div class="nav-link nav_title">Contact Us</div>
+                  <a class="nav-link nav_title" href="#contactus_sec" >Contact Us</a>
                 </li>
               </ul>
               <a
@@ -231,20 +227,19 @@
             <div class="col-md-6">
               <div class="fantasy_sec_content">
                 <h1>
-                  White Label
+                  <!-- White Label
                   <span class="title-blue fw-bold">
                     <span id="typing-text"></span>
                   </span>
                   <span class="sub-heading"><br /></span>
-                </h1>
+                </h1> -->
 
-                <!-- <h1>
+                <h1>
                 White Label
                 <span class="title-blue fw-bold">
                     <span id="typing-text">Fantasy Sports <br />App Development Company</span>
                 </span>
-                <span class="sub-heading"><br /></span>
-                </h1> -->
+                </h1>
                 <p>
                   Wanted to develop a fantasy sports app from scratch but
                   confused about costs and details? Our expert developer,
@@ -7172,123 +7167,123 @@
           </div>
         </div>
       </section>
-      <section class="contactus_sec">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="contact_heading">
-                    <div class="heading_contact">
-                        <h2 class="contact_mini_sec_heading">Contact</h2>
-                        <h2>Let’s Get to Work</h2>
-                        <p>
-                            Hey, this is DQOT Solutions, your worldwide IT partner! We offer comprehensive software
-                            solution services in India, the UK, Canada, the USA, the UAE, and Australia. We have a team
-                            of experts in app development, web design & development, marketing, and various other IT
-                            services. Get in touch with us now, and together let's embark on an innovative journey.
-                            Wherever you may be located, your success is our top priority!
-                        </p>
+      <section class="contactus_sec" id="contactus_sec">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="contact_heading">
+                        <div class="heading_contact">
+                            <h2 class="contact_mini_sec_heading">Contact</h2>
+                            <h2>Let’s Get to Work</h2>
+                            <p>
+                                Hey, this is DQOT Solutions, your worldwide IT partner! We offer comprehensive software
+                                solution services in India, the UK, Canada, the USA, the UAE, and Australia. We have a team
+                                of experts in app development, web design & development, marketing, and various other IT
+                                services. Get in touch with us now, and together let's embark on an innovative journey.
+                                Wherever you may be located, your success is our top priority!
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="first_form_bg">
-                    <div class="form-part">
-                        <h5 class="get_intext">Get In Touch</h5>
-                        <form class="row" id="contactForm" method="post" action="{{ route('inquiry') }}">
-                            <!-- @csrf -->
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <input type="text" name="full_name" id = "full_name" class="form-control"
-                                            placeholder="Full Name" required maxlength="50" minlength="3"
-                                            oninput="this.value = this.value.replace(/[^A-Za-z\s]/g, '')">
-                                        <span class="input-group-text">
-                                            <svg width="14" height="19" viewBox="0 0 14 19" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M1 17.9995V15.9995C1 14.9395 1.42004 13.9194 2.17004 13.1694C2.92004 12.4194 3.94 11.9995 5 11.9995H9C10.06 11.9995 11.08 12.4194 11.83 13.1694C12.58 13.9194 13 14.9395 13 15.9995V17.9995M3 4.99951C3 6.05951 3.42004 7.07959 4.17004 7.82959C4.92004 8.57959 5.94 8.99951 7 8.99951C8.06 8.99951 9.07996 8.57959 9.82996 7.82959C10.58 7.07959 11 6.05951 11 4.99951C11 3.93951 10.58 2.91943 9.82996 2.16943C9.07996 1.41943 8.06 0.999512 7 0.999512C5.94 0.999512 4.92004 1.41943 4.17004 2.16943C3.42004 2.91943 3 3.93951 3 4.99951Z"
-                                                    stroke="black" stroke-width="1.2" stroke-linecap="round"
-                                                    stroke-linejoin="round" />
-                                            </svg>
-                                        </span>
+                <div class="col-md-6">
+                    <div class="first_form_bg">
+                        <div class="form-part">
+                            <h5 class="get_intext">Get In Touch</h5>
+                            <form class="row" id="contactForm" method="post" action="{{ route('inquiry') }}">
+                                <!-- @csrf -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" name="full_name" id = "full_name" class="form-control"
+                                                placeholder="Full Name" required maxlength="50" minlength="3"
+                                                oninput="this.value = this.value.replace(/[^A-Za-z\s]/g, '')">
+                                            <span class="input-group-text">
+                                                <svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M1 17.9995V15.9995C1 14.9395 1.42004 13.9194 2.17004 13.1694C2.92004 12.4194 3.94 11.9995 5 11.9995H9C10.06 11.9995 11.08 12.4194 11.83 13.1694C12.58 13.9194 13 14.9395 13 15.9995V17.9995M3 4.99951C3 6.05951 3.42004 7.07959 4.17004 7.82959C4.92004 8.57959 5.94 8.99951 7 8.99951C8.06 8.99951 9.07996 8.57959 9.82996 7.82959C10.58 7.07959 11 6.05951 11 4.99951C11 3.93951 10.58 2.91943 9.82996 2.16943C9.07996 1.41943 8.06 0.999512 7 0.999512C5.94 0.999512 4.92004 1.41943 4.17004 2.16943C3.42004 2.91943 3 3.93951 3 4.99951Z"
+                                                        stroke="black" stroke-width="1.2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <span class="text-danger error-message" id="full_name-error"></span>
+
                                     </div>
-                                    <span class="text-danger error-message" id="full_name-error"></span>
-
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <input type="email" class="form-control" name="email" id="verify_email1"
-                                            placeholder="Email Address">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="email" class="form-control" name="email" id="verify_email1"
+                                                placeholder="Email Address">
 
-                                        <input type="hidden" name="current_url" value="{{ url()->current() }}"
-                                            readonly>
-                                        <input type="hidden" name="device_type" id="device_type" />
-                                        <span class="input-group-text"><svg width="18" height="14"
-                                                viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16.78 0.32959H1.21997C0.929971 0.32959 0.639941 0.449668 0.439941 0.659668C0.229941 0.869668 0.109985 1.14945 0.109985 1.43945V12.5596C0.109985 12.8496 0.229941 13.1294 0.439941 13.3394C0.639941 13.5494 0.929971 13.6694 1.21997 13.6694H16.78C17.07 13.6694 17.3601 13.5494 17.5601 13.3394C17.7701 13.1294 17.89 12.8496 17.89 12.5596V1.43945C17.89 1.14945 17.7701 0.869668 17.5601 0.659668C17.3601 0.449668 17.07 0.32959 16.78 0.32959ZM15.92 12.5596H2.14001L6.03003 8.5293L5.22998 7.75928L1.21997 11.9097V2.28955L8.13 9.15967C8.34 9.36967 8.62003 9.47949 8.91003 9.47949C9.20003 9.47949 9.48994 9.36967 9.68994 9.15967L16.78 2.11963V11.8394L12.6899 7.74951L11.91 8.5293L15.92 12.5596ZM1.94995 1.43945H15.88L8.91003 8.36963L1.94995 1.43945Z"
-                                                    fill="black" />
-                                            </svg>
-                                        </span>
+                                            <input type="hidden" name="current_url" value="{{ url()->current() }}"
+                                                readonly>
+                                            <input type="hidden" name="device_type" id="device_type" />
+                                            <span class="input-group-text"><svg width="18" height="14"
+                                                    viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M16.78 0.32959H1.21997C0.929971 0.32959 0.639941 0.449668 0.439941 0.659668C0.229941 0.869668 0.109985 1.14945 0.109985 1.43945V12.5596C0.109985 12.8496 0.229941 13.1294 0.439941 13.3394C0.639941 13.5494 0.929971 13.6694 1.21997 13.6694H16.78C17.07 13.6694 17.3601 13.5494 17.5601 13.3394C17.7701 13.1294 17.89 12.8496 17.89 12.5596V1.43945C17.89 1.14945 17.7701 0.869668 17.5601 0.659668C17.3601 0.449668 17.07 0.32959 16.78 0.32959ZM15.92 12.5596H2.14001L6.03003 8.5293L5.22998 7.75928L1.21997 11.9097V2.28955L8.13 9.15967C8.34 9.36967 8.62003 9.47949 8.91003 9.47949C9.20003 9.47949 9.48994 9.36967 9.68994 9.15967L16.78 2.11963V11.8394L12.6899 7.74951L11.91 8.5293L15.92 12.5596ZM1.94995 1.43945H15.88L8.91003 8.36963L1.94995 1.43945Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="text-danger error-message" id="verify_email1-error"></div>
                                     </div>
-                                    <div class="text-danger error-message" id="verify_email1-error"></div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <select class="form-select form-control fw-400 number-slect"
-                                            name="country_codes" id="phonecode" aria-label="Default select example">
-                                            @foreach ($countryCodes as $country_codes)
-                                                <option value="{{ $country_codes->country_code }}">
-                                                    IN (+91)</option>
-                                            @endforeach
-                                        </select>
-                                        <input type="text" name="phone_number"
-                                            oninput="this.value = this.value.replace(/[^0-9]/g, ''); if(parseInt(this.value.charAt(0)) <= 0) { this.value = ''; }"
-                                            class="form-control" id="phone_number"
-                                            placeholder="Phone Number" required />
-                                        <span class="input-group-text">
-                                            <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M8.591 0H2.045C1.50271 0.000264982 0.982714 0.215805 0.599259 0.599259C0.215805 0.982714 0.000264982 1.50271 0 2.045V15.955C0.000264982 16.4973 0.215805 17.0173 0.599259 17.4007C0.982714 17.7842 1.50271 17.9997 2.045 18H8.59C9.13229 17.9997 9.65229 17.7842 10.0357 17.4007C10.4192 17.0173 10.6347 16.4973 10.635 15.955V2.045C10.6347 1.50289 10.4193 0.983038 10.0361 0.599612C9.65286 0.216187 9.13311 0.00052986 8.591 0ZM5.318 17.182C5.07532 17.182 4.83809 17.11 4.63632 16.9752C4.43454 16.8404 4.27727 16.6488 4.1844 16.4246C4.09153 16.2003 4.06723 15.9536 4.11458 15.7156C4.16192 15.4776 4.27878 15.259 4.45038 15.0874C4.62198 14.9158 4.84061 14.7989 5.07862 14.7516C5.31664 14.7042 5.56335 14.7285 5.78755 14.8214C6.01176 14.9143 6.20339 15.0715 6.33821 15.2733C6.47304 15.4751 6.545 15.7123 6.545 15.955C6.54513 16.1162 6.51348 16.2758 6.45187 16.4247C6.39025 16.5736 6.29988 16.709 6.18591 16.8229C6.07195 16.9369 5.93663 17.0273 5.78771 17.0889C5.63878 17.1505 5.47917 17.1821 5.318 17.182ZM9 13.909H1.636V2.455H9V13.909Z"
-                                                    fill="black" />
-                                            </svg>
-                                        </span>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <select class="form-select form-control fw-400 number-slect"
+                                                name="country_codes" id="phonecode" aria-label="Default select example">
+                                                @foreach ($countryCodes as $country_codes)
+                                                    <option value="{{ $country_codes->country_code }}">
+                                                        IN (+91)</option>
+                                                @endforeach
+                                            </select>
+                                            <input type="text" name="phone_number"
+                                                oninput="this.value = this.value.replace(/[^0-9]/g, ''); if(parseInt(this.value.charAt(0)) <= 0) { this.value = ''; }"
+                                                class="form-control" id="phone_number"
+                                                placeholder="Phone Number" required />
+                                            <span class="input-group-text">
+                                                <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8.591 0H2.045C1.50271 0.000264982 0.982714 0.215805 0.599259 0.599259C0.215805 0.982714 0.000264982 1.50271 0 2.045V15.955C0.000264982 16.4973 0.215805 17.0173 0.599259 17.4007C0.982714 17.7842 1.50271 17.9997 2.045 18H8.59C9.13229 17.9997 9.65229 17.7842 10.0357 17.4007C10.4192 17.0173 10.6347 16.4973 10.635 15.955V2.045C10.6347 1.50289 10.4193 0.983038 10.0361 0.599612C9.65286 0.216187 9.13311 0.00052986 8.591 0ZM5.318 17.182C5.07532 17.182 4.83809 17.11 4.63632 16.9752C4.43454 16.8404 4.27727 16.6488 4.1844 16.4246C4.09153 16.2003 4.06723 15.9536 4.11458 15.7156C4.16192 15.4776 4.27878 15.259 4.45038 15.0874C4.62198 14.9158 4.84061 14.7989 5.07862 14.7516C5.31664 14.7042 5.56335 14.7285 5.78755 14.8214C6.01176 14.9143 6.20339 15.0715 6.33821 15.2733C6.47304 15.4751 6.545 15.7123 6.545 15.955C6.54513 16.1162 6.51348 16.2758 6.45187 16.4247C6.39025 16.5736 6.29988 16.709 6.18591 16.8229C6.07195 16.9369 5.93663 17.0273 5.78771 17.0889C5.63878 17.1505 5.47917 17.1821 5.318 17.182ZM9 13.909H1.636V2.455H9V13.909Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="text-danger error-message" id="phone_number-error"></div>
                                     </div>
-                                    <div class="text-danger error-message" id="phone_number-error"></div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group required" aria-required="true">
-                                    <textarea class="form-control text_area" id="requirements" name="requirements" placeholder="Your Requirements"
-                                        rows="3" required></textarea>
+                                <div class="col-md-12">
+                                    <div class="form-group required" aria-required="true">
+                                        <textarea class="form-control text_area" id="requirements" name="requirements" placeholder="Your Requirements"
+                                            rows="3" required></textarea>
+                                    </div>
+                                    <div class="text-danger error-message" id="requirements-error"></div>
                                 </div>
-                                <div class="text-danger error-message" id="requirements-error"></div>
-                            </div>
 
 
-                            <div id="recaptcha-contact-inquiry"></div>
-                            <span class="text-danger error-message" id="recaptcha-contact-inquiry-error"></span>
+                                <div id="recaptcha-contact-inquiry"></div>
+                                <span class="text-danger error-message" id="recaptcha-contact-inquiry-error"></span>
 
 
-                            <div class="col-md-12">
-                                <div class="form-btn">
-                                    <button type="submit" id="submitBtn"
-                                        class="btn btn-primary d-block w-100 chek-us mt-3">Send your Inquiry</button>
+                                <div class="col-md-12">
+                                    <div class="form-btn">
+                                        <button type="submit" id="submitBtn"
+                                            class="btn btn-primary d-block w-100 chek-us mt-3">Send your Inquiry</button>
+                                    </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     </main>
     <div class="main_quote_all_popup">
       <div class="" id="add_bg_color"></div>
@@ -8061,10 +8056,10 @@
               <div class="content_url">
                 <ul>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <a href="https://www.dqotsolutions.com/privacy-policy">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="#">Terms & Condition</a>
+                    <a href="https://www.dqotsolutions.com/term-and-conditions">Terms & Conditions</a>
                   </li>
                 </ul>
               </div>
@@ -8131,7 +8126,7 @@
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/jquery.validate.min.js"></script>
   <script src="assets/js/main.js"></script>
-  <script>
+  <!-- <script>
 
     // typing animation
     $(document).ready(function () {
@@ -8180,7 +8175,7 @@
         $("#currentYear").text(new Date().getFullYear());
     });
     });
-  </script>
+  </script> -->
   <script>
     var startProject = document.querySelectorAll("#top-nav-contact-form");
 
