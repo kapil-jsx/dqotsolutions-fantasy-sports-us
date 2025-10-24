@@ -7243,12 +7243,12 @@
                                             name="country_codes" id="phonecode" aria-label="Default select example">
                                             @foreach ($countryCodes as $country_codes)
                                                 <option value="{{ $country_codes->country_code }}">
-                                                    IN</option>
+                                                    IN (+91)</option>
                                             @endforeach
                                         </select>
                                         <input type="text" name="phone_number"
                                             oninput="this.value = this.value.replace(/[^0-9]/g, ''); if(parseInt(this.value.charAt(0)) <= 0) { this.value = ''; }"
-                                            class="form-control" id="phone_number" maxlength="10" minlength="10"
+                                            class="form-control" id="phone_number"
                                             placeholder="Phone Number" required />
                                         <span class="input-group-text">
                                             <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
